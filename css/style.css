@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*-------------------------
+    初期値
+-------------------------*/
+body {
+
+    padding-top: 74px;
+}
+
+.btn-primary {
+    background-color: #8e44ad;
+    border: 1px solid #8e44ad;
+}
+
+.btn-primary:hover {
+    background-color: #7e349d;
+    border: 1px solid #7e349d;
+
+}
+footer a {
+    color: #8e44ad;
+
+}
+footer a:hover{
+    color: #7e349d;
+}
+
+
+
+.col-lg-4 col-xs-12 {
+    text-align: justify;
+
+}
+
+/*-------------------------
+    トップ
+-------------------------*/
+
+.topics p {
+    text-align: center;
+
+    /* 新しいプロパティのため、ベンダープリフィックスを付与
+    ボタンの高さを揃え他と文章と行数を合わせるため */
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8; /* 表示行数を指定する */
+
+}
